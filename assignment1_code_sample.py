@@ -5,12 +5,11 @@ from urllib.request import urlopen
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
-    'password':   'secret123'
+    'password': 'secret123'
 }
 
 def get_user_input():
     user_input = input('Enter your name: ')
-
     return user_input
 
 def send_email(to, subject, body):
